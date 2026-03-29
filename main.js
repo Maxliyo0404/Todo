@@ -7,12 +7,12 @@ function addTodo (){
   let  li = document.createElement("li");
   li.textContent = input.value;
   
-  let btn = document.createElement("button");
-  btn.textContent = "Delete"
-  btn.onclick = function(){
+  let button = document.createElement("button");
+  button.textContent = "Delete"
+  button.onclick = function(){
     li.remove();
   }
-  li.appendChild(btn)
+  li.appendChild(button)
   list.appendChild(li);
   input.value = "";
 } 

@@ -36,7 +36,7 @@ h1{
    font-size: 16px;
    
 }
-.btn{
+.button{
     padding: 9px;
     background: #007bff;
     color: white;
@@ -59,6 +59,22 @@ h1{
     align-items: center;
     justify-content: space-between;
     background: #f8f9fa;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
+.list li button{
+    margin-left: 20px;
+    cursor: pointer;
+    background: #007bff;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    border: none;
+    &:hover{
+
+        border: 1px solid #007bff;
+    }
+} 
