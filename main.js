@@ -3,6 +3,8 @@ function addTodo (){
     const input = document.getElementById("input");
     const list = document.getElementById("list");
   if (input.value === "") return
-  let  item = document.createElement("item");
-  item.textContent = input.value;
+  let  li = document.createElement("li");
+  li.textContent = input.value;
+  list.appendChild("li");
+  input.value = "";
 } 
