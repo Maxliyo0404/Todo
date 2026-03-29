@@ -9,5 +9,10 @@ function addTodo (){
   
   let btn = document.createElement("button");
   btn.textContent = "Delete"
-  
+  btn.onclick = function(){
+    li.remove();
+  }
+  li.appendChild(btn)
+  list.appendChild(li);
+  input.value = "";
 } 
