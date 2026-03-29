@@ -11,7 +11,7 @@ body{
 .box{
  background: white;
  max-width: 400px;
- min-height: 300px;
+ min-height: 350px;
  padding: 30px;
  border-radius: 10px;
  box-shadow: 0px 10px 20px rgba(0 , 0, 0, 0.2);
@@ -34,6 +34,8 @@ h1{
    padding: 7px;
    border-radius: 5px;
    font-size: 16px;
+   font-weight: 500;
+   border: 1px solid #007bff;
    
 }
 .button{
@@ -43,6 +45,7 @@ h1{
     border-radius: 5px;
     border: 1px solid #007bff;
     border: none;
+    cursor: pointer;
     &:hover{
         transform: scale(0.9);
         border: 1px solid #007bff;
@@ -51,7 +54,7 @@ h1{
 .list{
     list-style: none;
     padding: 0;
-    margin-top: 20px;
+    margin-top: 30px;
     
 }
 .list li{
@@ -60,12 +63,11 @@ h1{
     justify-content: space-between;
     background: #f8f9fa;
     padding: 5px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 .list li button{
-    margin-left: 20px;
     cursor: pointer;
     background: #007bff;
     padding: 7px;
