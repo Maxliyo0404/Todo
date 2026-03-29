@@ -4,15 +4,22 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     margin: 0 auto;
     margin-top: 100px;
 }
+
 .box{
  background: white;
  max-width: 400px;
+ min-height: 300px;
  padding: 30px;
  border-radius: 10px;
  box-shadow: 0px 10px 20px rgba(0 , 0, 0, 0.2);
  text-align: center;
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
 }
