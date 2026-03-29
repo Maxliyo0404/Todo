@@ -7,7 +7,7 @@ function addTodo (){
   let  li = document.createElement("li");
   li.textContent = input.value;
   
-  li btn = document.
-  list.appendChild("li");
-  input.value = "";
+  li btn = document.createElement("button");
+  btn.textContent = "Delete"
+  
 } 
